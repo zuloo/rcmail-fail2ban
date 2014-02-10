@@ -44,7 +44,7 @@ logpath  = /var/www/htdoc/roundcube/logs/auth.log</pre>
 **fail2ban/filter.d/rcmail.conf:**
 
 <pre>[Definition]
-failregex = FAILED login for .* from &lt;HOST&gt$;
+failregex = FAILED login for .* from &lt;HOST&gt;$
 ignoreregex =</pre>
 
   
